@@ -1,0 +1,7 @@
+This is a test file that would contain MD5 hashes in it.  The script uses a regex to find the unique MD5 hashes and then it will traverse recursively from the working directory, comparing output.
+//
+// File Checksum Integrity Verifier version 2.05.
+//
+1ca0e7776ca38490a45f227c5517fb11 filetodetect.txt
+1ca0e7776ca38490a45f227c5517fb12 someotherfile.exe
+1ca0e7776ca38490a45f227c5517fb121234 not_an_md5_hash.sh
