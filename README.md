@@ -13,3 +13,6 @@ Replace testlist.txt with any kind of text file (csv, xml, free text, etc) that 
 Note that it starts traversing from your current working directory, so if you wanted to scan your C:\, you would do 
 from C:\
 python ./path/to/matchmd5.py ./path/to/the/md5list.txt
+
+-v will turn on verbose printing
+-s 1234 will skip files over 1234 bytes. (useful for skipping large files like swap files,  vm images, etc)
